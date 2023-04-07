@@ -220,6 +220,7 @@ header .container {
 
 .active {
   position: relative;
+  color: var(--color-ocean-pressed);
 }
 .active::after {
   content: "";
