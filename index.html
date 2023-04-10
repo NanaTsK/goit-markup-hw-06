@@ -454,8 +454,32 @@
             <use href="./images/sprite.svg#icon-close-btn"></use>
           </svg>
         </button>
+
+        <form class="contact-form body-text-style">
+          <p class="form-title">
+            Leave your contacts and we will call you back
+          </p>
+          <input
+            type="text"
+            class="contact-form-input"
+            name="user_name"
+            required
+          />
+          <input type="tel" class="contact-form-input" name="user_phone" />
+          <input
+            type="email"
+            class="contact-form-input"
+            name="user_email"
+            required
+          />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="checkbox" name="" id="" />
+          <button class="modal-btn-contact" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
+
+/index.html? user_name=nana user_phone=1234 user_email=nana%40nana
