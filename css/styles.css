@@ -609,6 +609,7 @@ footer .container {
   padding: 8px 16px 8px 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: transparent;
 }
 
 .form-icon {
@@ -625,12 +626,21 @@ footer .container {
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: transparent;
 }
 .contact-form-msg::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.contact-form-input:focus,
+.contact-form-msg:focus {
+  border-color: var(--color-iris-brand);
+}
+.contact-form-input:focus + .form-icon {
+  fill: var(--color-iris-brand);
 }
 
 .contact-form-checkbox {
