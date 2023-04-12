@@ -528,7 +528,7 @@ footer .container {
 .modal {
   position: absolute;
   width: 408px;
-  min-height: 576px;
+  /* min-height: 576px; */
   padding: 72px 24px 24px;
   left: 50%;
   top: 50%;
@@ -660,8 +660,8 @@ footer .container {
   color: var(--color-iris-brand);
 }
 
-/* .modal-btn-contact {
-} */
+/* .modal-btn-contact { */
+}
 
 /* .contact-form-checkbox {
 } */
@@ -674,15 +674,25 @@ footer .container {
   background-position: center;
 }
 
-/* .contact-form-checkbox-descr {
-} */
+.contact-form-checkbox:focus + .contact-form-checkbox-descr::before {
+  border: 1px solid var(--color-iris-brand);
+}
+
+.contact-form-checkbox-descr {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 24px;
+}
 .contact-form-checkbox-descr::before {
   display: block;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  margin-right: 8px;
   cursor: pointer;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   content: "";
 }
 /* .privacy-policy {
