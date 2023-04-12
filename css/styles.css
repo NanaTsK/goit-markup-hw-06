@@ -579,8 +579,8 @@ footer .container {
 
 /* <<<<<<<<<<<<<<<<<< Modal Form */
 
-.contact-form {
-}
+/* .contact-form {
+} */
 .form-title {
   font-weight: 500;
   text-align: center;
@@ -595,7 +595,7 @@ footer .container {
   margin: 8px 0 4px;
   color: var(--color-light-slate);
 }
-/* .checkbox-label {
+/*** .checkbox-label {
   display: block;
   margin: 16px 0 24px;
 } */
@@ -649,10 +649,10 @@ footer .container {
   fill: var(--color-iris-brand);
 }
 
-/* .contact-form-checkbox {
+/*** .contact-form-checkbox {
 } */
 
-/* .checkbox-icon {
+/*** .checkbox-icon {
 } */
 
 .privacy-policy {
@@ -660,11 +660,11 @@ footer .container {
   color: var(--color-iris-brand);
 }
 
-.modal-btn-contact {
-}
+/* .modal-btn-contact {
+} */
 
-.contact-form-checkbox {
-}
+/* .contact-form-checkbox {
+} */
 
 .contact-form-checkbox:checked + .contact-form-checkbox-descr::before {
   background-color: var(--color-ocean-pressed);
@@ -674,8 +674,8 @@ footer .container {
   background-position: center;
 }
 
-.contact-form-checkbox-descr {
-}
+/* .contact-form-checkbox-descr {
+} */
 .contact-form-checkbox-descr::before {
   display: block;
   width: 16px;
@@ -685,5 +685,5 @@ footer .container {
   cursor: pointer;
   content: "";
 }
-.privacy-policy {
-}
+/* .privacy-policy {
+} */
