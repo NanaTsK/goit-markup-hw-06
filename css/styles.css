@@ -695,10 +695,7 @@ footer .container {
   fill: var(--color-iris-brand);
 }
 
-/*** .contact-form-checkbox {
-} */
-
-/*** .checkbox-icon {
+/* .contact-form-checkbox {
 } */
 
 .privacy-policy {
@@ -707,9 +704,6 @@ footer .container {
 }
 
 /* .modal-btn-contact {
-} */
-
-/* .contact-form-checkbox {
 } */
 
 .contact-form-checkbox:checked + .contact-form-checkbox-descr::before {
