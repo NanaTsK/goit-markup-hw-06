@@ -403,6 +403,7 @@ footer .container {
   padding-bottom: 100px;
 }
 
+/* <<<<<<<<<<<<<<<<<< Footer Logo */
 .logo-studio-footer {
   color: var(--color-cloud);
 }
@@ -412,6 +413,7 @@ footer .container {
   margin-top: 16px;
 }
 
+/* <<<<<<<<<<<<<<<<<< Footer Social */
 .footer-soc-box {
   margin-left: 120px;
 }
@@ -429,7 +431,43 @@ footer .container {
 .footer-soc-list .soc-media-link:is(:hover, :focus) {
   background-color: var(--color-green-success);
 }
+/* <<<<<<<<<<<<<<<<<< Footer Subsribe */
+.footer-subscribe-form {
+  margin-left: 80px;
+}
 
+.footer-subscribe-form .section-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* .email-subscribe-BLA-BLA {
+  margin-top: 8px;
+  margin-right: 24px;
+} */
+
+.footer-subscribe-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 24px;
+}
+
+.email-subscribe-BLA-BLA {
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.modal-btn-subscribe {
+  /* min-width: 169px;
+  height: 56px; */
+  padding: 8px 24px;
+  background-color: var(--color-iris-brand);
+  color: var(--color-white-main);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+}
 /** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PORTFOLIO Filter */
 .portfolio {
   padding-top: 96px;
