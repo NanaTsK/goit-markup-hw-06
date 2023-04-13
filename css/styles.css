@@ -430,6 +430,7 @@ footer .container {
 }
 .footer-soc-list .soc-media-link:is(:hover, :focus) {
   background-color: var(--color-green-success);
+  outline: transparent;
 }
 /* <<<<<<<<<<<<<<<<<< Footer Subsribe */
 .footer-subscribe-form {
@@ -440,10 +441,6 @@ footer .container {
   font-size: 16px;
   line-height: 1.5;
 }
-/* .email-subscribe-BLA-BLA {
-  margin-top: 8px;
-  margin-right: 24px;
-} */
 
 .footer-subscribe-box {
   display: flex;
@@ -452,16 +449,39 @@ footer .container {
   gap: 24px;
 }
 
-.email-subscribe-BLA-BLA {
-  border: 1px solid #ffffff;
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid var(--color-white-main);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  color: var(--color-white-main);
   background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.subscribe-input:focus {
+  border-color: var(--color-iris-brand);
+  outline: transparent;
+}
+
+.subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--color-white-main);
+}
+/* font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em; */
+
 .modal-btn-subscribe {
-  /* min-width: 169px;
-  height: 56px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   padding: 8px 24px;
   background-color: var(--color-iris-brand);
   color: var(--color-white-main);
@@ -609,6 +629,7 @@ footer .container {
 .modal-btn-close:is(:hover, :focus) {
   background-color: var(--color-ocean-pressed);
   fill: var(--color-white-main);
+  outline: transparent;
 }
 
 /* <<<<<<<<<<<<<<<<<< Modal Form */
@@ -712,7 +733,7 @@ footer .container {
 
 .contact-form-checkbox-descr {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   margin: 16px 0 24px;
 }
 .contact-form-checkbox-descr::before {
@@ -724,7 +745,6 @@ footer .container {
   margin-right: 8px;
   cursor: pointer;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   content: "";
 }
 /* .privacy-policy {
